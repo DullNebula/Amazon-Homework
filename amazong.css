@@ -1,0 +1,106 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.amazonglogo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0px 10px;
+    min-width: 35ch;
+    border:1px solid black;
+    padding: 5px 5px;
+    width:20%;
+}
+.subbox{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0px 10px;
+    min-width: 35ch;
+    width: 20%;
+    padding: 5px 5px
+}
+label{
+    white-space: nowrap;
+}
+div.amazongpassword{
+    display:flex;
+    justify-content: space-between;
+}
+div.links
+{
+    justify-content: space-evenly;
+    width:200px;
+    gap: 10%;
+    white-space: nowrap;
+    display: flex;
+    
+}
+.checkbox{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+
+}
+input[type=password]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    min-width: 20%;
+    border-radius: 5px;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    min-width: 20%;
+    border-radius: 5px;
+}
+
+.continue{
+    background-color:rgb(255, 195, 31);
+    width: 100%
+}
+.linetext {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    width: 100%;
+  }
+  .linetext::before, .linetext:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .linetext::before {
+    margin-right: 10px;
+  }
+  .linetext::after {
+    margin-left: 10px;
+  }
+  
+  .line
+  {
+      width: 100%;
+        border-bottom: 1px solid;
+        margin: 30px 10px;
+  }
+  a{
+    text-decoration: none;
+  }
